@@ -2,7 +2,7 @@ USE turnos_system;
 
 CREATE TABLE turnos (
     id_turno INTEGER PRIMARY KEY AUTO_INCREMENT,
-    nombre_paciente TEXT NOT NULL,
+    nombre TEXT NOT NULL,
     email TEXT NOT NULL,
     telefono TEXT NOT NULL,
     edad TEXT,
