@@ -12,5 +12,5 @@ CREATE TABLE turnos (
     color_pelo TEXT NOT NULL,
     fecha_turno DATE NOT NULL,
     hora_turno TIME NOT NULL,
-    diagnostico BINARY DEFAULT NULL);
+    diagnostico TEXT DEFAULT NULL);
     
